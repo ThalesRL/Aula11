@@ -1,0 +1,157 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    }
+
+    #logo {
+    width: 96px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+    }
+
+    #menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+    }
+
+    .a1 {
+    color: white;
+    text-decoration: none;
+    }
+
+    li {
+    float: left;
+    padding: 20 10 20 10;
+    }
+
+    li:hover {
+        background-color: #01AAEA;
+    }
+
+@media all and (max-width: 768px) {
+    #menu {
+    visibility: hidden;
+    }
+
+    .coluna, .dois, .tres, .quatro {
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+    }
+    
+    #logodiv {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 0px;
+    }
+
+    #logo {
+    margin-left: 0px;
+    transform: translateX(-50%);
+    }
+}
+
+#imagem_fundo {
+    background: url(img/fundo.jpg);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+#titulo1 {
+    color: white;
+    padding-top: 10%;
+    font-size: 70px;
+    line-height: 1;
+}
+
+#subtitulo1 {
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#botao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+}
+
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+
+.coluna {
+    padding: 1% 5%;
+    position: relative;
+    float: left;
+  }
+
+.dois {
+    width: 40%;
+}
+
+.quatro {
+    width: 15%;
+}
+
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.centralizado {
+    text-align: center;
+}
+.centralizado2 {
+    color: white;
+    text-align: center;
+}
+
+.justificado{
+    color: white;
+    text-align: justify;
+}
+
+.justificado2{
+    text-align: justify;
+}
+
+
+.icone {
+ width: 51px;
+}
+
+section{
+    padding: 20px;
+    float: left;
+    width: 100%;
+}
+
+.destaque1 {
+    background-color: rgb(3,23,45);
+}
+.destaque2 {
+    background-color: rgb(4,50,85);
+}
+
+.destaque {
+    background-color: rgb(15,89,128);
+}
